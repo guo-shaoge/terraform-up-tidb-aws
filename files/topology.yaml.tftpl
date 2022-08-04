@@ -19,8 +19,13 @@ tikv_servers:
   - host: ${host}
   %{~ endfor ~}
 
-tiflash_servers:
-  %{~ for host in tiflash_hosts ~}
+tiflash_wn_servers:
+  %{~ for host in tiflash_wn_hosts ~}
+  - host: ${host}
+  %{~ endfor ~}
+
+tiflash_rn_servers:
+  %{~ for host in tiflash_rn_hosts ~}
   - host: ${host}
   %{~ endfor ~}
 
