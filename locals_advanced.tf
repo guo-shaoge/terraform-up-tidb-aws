@@ -12,8 +12,8 @@ locals {
   tidb_instance    = "c5.2xlarge"
   tikv_instance    = "r5.2xlarge"
   pd_instance      = "c5.2xlarge"
-  tiflash_wn_instance = "m5a.xlarge"
-  tiflash_rn_instance = "m6a.2xlarge"
+  tiflash_wn_instance = "m5.large"
+  tiflash_rn_instance = "m5.2xlarge"
   center_instance  = "c5.2xlarge"
 
   master_ssh_key         = "./master_key"
