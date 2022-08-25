@@ -12,7 +12,7 @@ locals {
   tidb_instance    = "c5.2xlarge"
   tikv_instance    = "r5.2xlarge"
   pd_instance      = "c5.2xlarge"
-  tiflash_wn_instance = "r5.2xlarge"
+  tiflash_wn_instance = "r5.4xlarge"
   tiflash_rn_instance = "m5.large"
   center_instance  = "c5.2xlarge"
 
