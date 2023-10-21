@@ -3,10 +3,10 @@
 # install tiup
 curl --proto '=https' --tlsv1.2 -sSf https://tiup-mirrors.pingcap.com/install.sh | sh
 
-# install haproxy
-sudo apt install -y haproxy mysql-client
-sudo cp ~/haproxy.cfg /etc/haproxy/haproxy.cfg
-sudo systemctl restart haproxy
+# # install haproxy
+# sudo apt install -y haproxy mysql-client
+# sudo cp ~/haproxy.cfg /etc/haproxy/haproxy.cfg
+# sudo systemctl restart haproxy
 
 # prepare go-tpc
 sudo snap install go --classic

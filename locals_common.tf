@@ -1,6 +1,6 @@
 locals {
-  name      = "example-cluster"
-  n_tidb    = 2
-  n_tikv    = 3
+  name      = "guojiangtao-autoscaler"
+  n_tidb    = 1
+  n_tikv    = 0
   n_tiflash = 0
 }
